@@ -1,0 +1,10 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Go flags library
+Upstream-Contact: Ethel Morgan <eth@ethulhu.co.uk>
+Source: https://github.com/ethulhu/go-flag
+
+# Sample paragraph, commented out:
+#
+# Files: src/*
+# Copyright: $YEAR $NAME <$CONTACT>
+# License: ...
