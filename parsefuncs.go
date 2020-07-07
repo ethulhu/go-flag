@@ -11,9 +11,14 @@ import (
 	"strings"
 )
 
+var (
+	// ErrRequired provides a canonical "you must set this flag" error message.
+	ErrRequired = errors.New("must not be empty")
+)
+
 func RequiredString(raw string) (interface{}, error) {
 	if raw == "" {
-		return nil, errors.New("must not be empty")
+		return nil, ErrRequired
 	}
 	return raw, nil
 }
